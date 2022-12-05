@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.contact-head {
+    background-color: lightseagreen;
+    height: 10vh;
+    padding-top: 25px;
+}
+
+.contact-head p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.contact_container{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 120px;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+.chat-part {
+    width: 50%;
+}
+
+.chat-part h1{
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.chat-part p{
+    font-size: 18px;
+    padding-top: 18px;
+    color: grey;
+}
+
+.number-part {
+    background-color: rgb(243, 236, 236);
+    width: 45%;
+    height: 220px;
+    padding-top: 70px;
+    margin-left: 120px;
+}
+
+#number1 {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#week {
+    padding-top: 15px;
+    font-size: 18px;
+    color: grey;
+    padding-left: 34px;
+    text-align: center;
+}
+
+#font {
+    text-align: center;
+    font-size: 35px;
+    color: lightseagreen;
+}
+
+.contact-social {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 20px;
+}
+
+/* .fa {
+    font-size: 35px;
+    color: lightseagreen;
+    padding-bottom: 15px;
+} */
+
+
+
+#willy {
+    padding-bottom: 4px;
+    color: grey;
+    font-size: 17px;
+}
+
+.contact_button {
+    width: 160px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.google_map{
+    padding-top: 15px;
+}
+
+#mail-part {
+    font-size: 22px;
+    color: lightseagreen;
+}
+
+#que {
+    padding-top: 10px;
+    color: grey;
+    padding-bottom: 5px;
+}
+#drop {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.fa-social {
+    font-size: 20px;
+    padding-right: 10px;
+    color: lightseagreen;
+}
+
+.social {
+    padding-top: 10px;
+    color: lightseagreen;
+    font-size: 20px;
+}
+
+.social_atag{
+    color: lightseagreen;
+}
+
+
+/***********media query for Tablet************/
+
+@media(max-width:1200px){
+    .contact-head {
+        height: 13vh;
+    }
+    .chat-part h1{
+        padding-top: 0px;
+    }
+    .contact_container{
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
+    }
+    .contact-social {
+        margin-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.portfolio-head {
+    background-color: lightseagreen;
+    height: 10vh;
+    padding-top: 25px;
+}
+
+.portfolio-head p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.port-nav {
+    height: 90px;
+    /* background-color: brown; */
+    margin-top: 40px;
+    padding-left: 400px;
+}
+
+.port-item ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 12px;
+    position: relative;
+    align-items: center;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.port-item ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.portnav_item:hover{
+    width: 140px;
+    padding: 12px 0;
+    /* margin: 50px 10px; */
+    text-align: center;
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+.portpic_part{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.port_img:hover{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    transition: 0.5s;
+}
+
+.port_button {
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 550px;
+    margin-bottom: 20px;
+
+}
+.port_button:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+
+.fa-regular {
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+/* ********media query for Tablet********** */
+
+@media(max-width:1200px){
+    /* .port_img{
+        width: 170px;
+    } */
+
+    .portfolio-head {
+        height: 13vh;
+    }
+    /* .portpic_part{
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        gap: 20px;
+        padding-top: 20px;
+        padding-left: 30px;
+    } */
+    .port_img{
+        width: 280px;
+    }
+    .port-nav {
+        height: 90px;
+        margin-top: 15px;
+        padding-left: 250px;
+    }
+    .port_button {
+        width: 220px;
+        height: 50px;
+        margin-top: 30px;
+        font-size: 20px;
+        margin-left: 450px;
+        margin-bottom: 20px;
+    
+    }
+}
